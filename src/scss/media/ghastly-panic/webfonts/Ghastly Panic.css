@@ -1,0 +1,8 @@
+@font-face
+{
+    font-family: 'Ghastly Panic';
+  src: url('Ghastly Panic.eot');
+      url('Ghastly Panic.eot?#') format('embedded-opentype'),
+      url('Ghastly Panic.woff') format('woff'),
+      url('Ghastly Panic.ttf') format('truetype');
+}

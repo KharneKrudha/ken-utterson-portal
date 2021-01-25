@@ -1,0 +1,231 @@
+@import "animations";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+html,
+body,
+body * {
+  cursor: url("./media/kursor.cur"), url("./media/cursor.png"), default;
+}
+
+@font-face {
+  font-family: "Glitch City";
+  src: url("./media/CfGlitchCityRegular-L1vZ.ttf");
+}
+
+@font-face {
+  font-family: "TOXICWAIST";
+  src: url("./media/TOXICWAIST.TTF");
+}
+
+.navbar {
+  background-image: url("./media/glitch6.gif");
+
+  &-container {
+    position: relative;
+    padding: 5px;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 1;
+
+    & a {
+      font-family: "Glitch City";
+      font-weight: bold;
+      font-size: 4.8vh;
+      letter-spacing: 3px;
+      color: rgb(0, 0, 0);
+      text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+      text-decoration: none;
+      filter: blur(0.7px);
+
+      &:hover {
+        color: white;
+        text-shadow: 1px 2px 20px #fff;
+        filter: brightness(2px) blur(5px);
+
+        animation: navhov 0.1s infinite linear alternate;
+
+        &::after {
+          filter: brightness(2px) blur(5px);
+        }
+      }
+    }
+  }
+}
+
+.logo-home {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 3px;
+  text-align: center;
+
+  &-image {
+    position: absolute;
+    height: 50vh;
+    width: 50vh;
+    filter: drop-shadow(1px 0px 0px #fff);
+
+    &:hover {
+      animation: batman 0.2s infinite linear alternate;
+    }
+  }
+}
+
+.logoRight {
+  &:hover {
+    animation: batmanTwo 0.2s infinite linear alternate;
+  }
+}
+
+.ku {
+  height: 10vh;
+  width: 10vh;
+  margin-top: -15px;
+
+  &-writing {
+    height: 70vh;
+    width: 8vh;
+    text-shadow: 1px 0px 0px white;
+  }
+}
+
+.social-links {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("./media/giphy.gif");
+
+  & a {
+    margin: 20px;
+    padding: 20px;
+    transform: scale(0.8);
+    filter: invert(0.4);
+
+    &:hover {
+      text-shadow: 2px 3px 4px white;
+      transform: scale(1.1);
+      filter: invert(0);
+    }
+  }
+}
+
+.releases-container {
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  &-item {
+    margin: 10px;
+    padding: 5px;
+    height: 305px;
+    width: 337px;
+
+    & img {
+      height: 300px;
+      width: 335px;
+      border: 1px solid white;
+      text-decoration: none;
+
+      animation: releases 0.1s infinite linear alternate;
+
+      &:hover {
+        transform: scale(1.1);
+        animation: bordersTwo 0.1s infinite linear alternate;
+      }
+    }
+  }
+}
+
+.tools-container {
+  height: 100%;
+  width: 100%;
+  margin-top: -45px;
+  margin-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-item {
+    margin: -2px;
+
+    &:hover {
+      filter: invert(1);
+    }
+  }
+}
+
+.tools-img {
+  height: 50px;
+  width: 200px;
+}
+
+.bio-container {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+
+  &-text {
+    font-family: "Glitch City";
+    font-size: 50px;
+    letter-spacing: 8px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px white, 0px 0px 7px white;
+    text-overflow: clip;
+  }
+}
+
+.glitch {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 40px;
+}
+
+.glitch::before,
+.glitch::after {
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+  position: absolute;
+
+  clip: rect(0, 900px, 0, 0);
+  content: attr(data-text);
+}
+
+.glitch::before {
+  text-shadow: 1px 0 black;
+
+  animation-name: glitch-animation-2;
+  animation-duration: 1s;
+}
+
+@import "queries";

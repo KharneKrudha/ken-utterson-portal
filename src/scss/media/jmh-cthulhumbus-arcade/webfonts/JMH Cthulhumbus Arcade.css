@@ -1,0 +1,8 @@
+@font-face
+{
+    font-family: 'JMH Cthulhumbus Arcade';
+  src: url('JMH Cthulhumbus Arcade.eot');
+      url('JMH Cthulhumbus Arcade.eot?#') format('embedded-opentype'),
+      url('JMH Cthulhumbus Arcade.woff') format('woff'),
+      url('JMH Cthulhumbus Arcade.ttf') format('truetype');
+}
