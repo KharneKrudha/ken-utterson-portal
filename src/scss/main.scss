@@ -51,7 +51,8 @@ body * {
 
       &:hover {
         color: white;
-        text-shadow: 1px 2px 20px #fff;
+        text-shadow: 1px 2px 20px #fff !important;
+        transform: scale(1.1);
         filter: brightness(2px) blur(5px);
 
         animation: navhov 0.1s infinite linear alternate;
