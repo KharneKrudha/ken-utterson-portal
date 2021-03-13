@@ -1,6 +1,6 @@
 import React from 'react';
 
-import KU from './media/ku.png';
+import KU from './media/kenutterson.gif';
 
 function KenUtt() {
     return (

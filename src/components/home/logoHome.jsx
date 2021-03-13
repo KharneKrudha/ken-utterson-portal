@@ -7,11 +7,11 @@ function LogoHome() {
     return (
         <div className='logo-home'>
 
-            <KenUtt />
+
 
             <img className='logo-home-image glitch' src={logoBlack} alt="logo" />
 
-            <KenUtt />
+            {/* <KenUtt /> */}
 
             <div className='query'>
 
@@ -19,9 +19,9 @@ function LogoHome() {
 
             </div>
 
-            <div className='query'>
+            {/* <div className='query'>
                 <KenUtt />
-            </div>
+            </div> */}
 
         </div>
     )

@@ -227,128 +227,57 @@
 
 @keyframes batman {
   0% {
-    // filter: drop-shadow(55px 10px 1px#fff);
-  }
-  5% {
-    // filter: drop-shadow(1px 20px 10px#fff);
-  }
-  10% {
-    // filter: drop-shadow(1px 2px 1px#fff);
-  }
-  15% {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    content: url("./media/logo-white.png");
-  }
-  20% {
-    // filter: drop-shadow(25px 40px 20px#fff);
-  }
-  25% {
-    // filter: drop-shadow(51px 15px 22px#fff);
-  }
-  30% {
-    // filter: drop-shadow(22px 22px 1px#fff);
-  }
-  35% {
-    // filter: drop-shadow(0px 19px 30px white);
-  }
-  40% {
-    // filter: drop-shadow(10px 51px 2px#fff);
-  }
-  45% {
-    // filter: drop-shadow(44px 21px 30px#fff);
-  }
-  50% {
-    // filter: drop-shadow(1px 50px 1px#fff);
-  }
-  55% {
-    // filter: drop-shadow(25px 11px 70px gray);
-  }
-  60% {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    content: url("./media/codex.gif");
+    content: url("./media/j.gif");
     background-blend-mode: darken;
-    filter: invert(1);
+    filter: invert(0);
   }
-  65% {
-    // filter: drop-shadow(40px 2px 1px#fff);
-  }
-  70% {
-    // filter: drop-shadow(2px 50px 2px#fff);
-  }
-  75% {
-    // filter: drop-shadow(1px 1px 70px#fff);
-  }
-  80% {
-    // filter: drop-shadow(30px 2px 2px#fff);
-  }
-  85% {
-    // filter: drop-shadow(1px 22px 21px#fff);
-  }
-  90% {
-    // filter: drop-shadow(32px 62px 1px#fff);
-  }
-  95% {
-    // filter: drop-shadow(1px 2px 56px#fff);
+
+  50% {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: url("./media/j.gif");
+    background-blend-mode: darken;
+    filter: invert(0.5);
   }
   100% {
-    // filter: drop-shadow(1px 0px 0px#fff);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: url("./media/j.gif");
+    background-blend-mode: darken;
+    filter: invert(1);
   }
 }
 
 @keyframes batmanTwo {
   0% {
-  }
-  5% {
-  }
-  10% {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: url("./media/v.gif");
   }
   15% {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    content: url("./media/logo-white.png");
+    content: url("./media/v.gif");
   }
-  20% {
-  }
-  25% {
-  }
-  30% {
-  }
-  35% {
-  }
-  40% {
-  }
-  45% {
-  }
-  50% {
-  }
-  55% {
-  }
+
   60% {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    content: url("./media/glitch8.gif");
-  }
-  65% {
-  }
-  70% {
-  }
-  75% {
-  }
-  80% {
-  }
-  85% {
-  }
-  90% {
-  }
-  95% {
+    content: url("./media/v.gif");
   }
   100% {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: url("./media/v.gif");
   }
 }
 
