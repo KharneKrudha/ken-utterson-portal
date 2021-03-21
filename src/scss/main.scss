@@ -117,12 +117,12 @@ body * {
   & a {
     margin: 20px;
     padding: 20px;
-    transform: scale(1);
+    transform: scale(2);
     filter: invert(1);
 
     &:hover {
       text-shadow: 9px 13px 24px white;
-      transform: scale(1.5);
+      transform: scale(2.5);
     }
   }
 }
